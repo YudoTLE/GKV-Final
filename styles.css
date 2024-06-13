@@ -1,0 +1,20 @@
+body {
+    background-color:azure;
+}
+
+.container {
+    display:  grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.5);
+}
+
+.metric {
+    color: red;
+}
